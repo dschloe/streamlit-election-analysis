@@ -3,6 +3,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 from gallup import run_gallup
+from election import run_election
 from PIL import Image
 
 import base64
@@ -41,7 +42,7 @@ def main():
     elif selected == "갤럽여론조사":
         run_gallup()
     elif selected == "20대 대통령선거":
-        pass
+        run_election()
     else:
         print("error...")
 

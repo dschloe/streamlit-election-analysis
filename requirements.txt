@@ -8,4 +8,8 @@ streamlit
 geopandas
 folium
 streamlit-option-menu
+geopandas
+folium
+mapclassify
+streamlit-folium
 openpyxl
